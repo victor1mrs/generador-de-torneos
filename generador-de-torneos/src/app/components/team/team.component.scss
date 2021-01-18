@@ -1,0 +1,48 @@
+.row{
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.row:hover{
+    border-radius: 3px;
+    background: #eee;
+}
+
+.selected{
+    text-decoration: line-through;
+    color: rgb(146, 60, 60);
+}
+
+div{
+    padding: 5px 0;
+}
+
+.name{
+    display: flex;
+    width: 50%;
+    padding: 0 5px;
+}
+
+.actions{
+    /*width: 10%;*/
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 5px;
+}
+.actions button{
+    border:none;
+    font-size:12px;
+    background-color: rgb(245, 19, 19);
+    color:white;
+    padding:5px;
+    width:100%;
+    box-sizing: border-box;
+}
+.actions button:hover{
+    background-color: darkred;
+}
+
+.actions button[disabled]{
+    background-color: rgb(184, 152, 152);
+}
